@@ -1,10 +1,10 @@
-from Selenium.PTYourStore.locators.locators import Locators
+from locators.locators import Locators
 from selenium.webdriver.common.by import By
+
 
 class RegisterAccount:
     def __init__(self, driver):
         self.driver = driver
-
 
         self.input_firstname_RegAcc_ID = Locators.input_firstname_RegAcc_ID
         self.input_lastname_RegAcc_ID = Locators.input_lastname_RegAcc_ID

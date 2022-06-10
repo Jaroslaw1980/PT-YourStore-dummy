@@ -1,6 +1,7 @@
-from Selenium.PTYourStore.locators.locators import Locators
+from locators.locators import Locators
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
+
 
 class ProductListPage:
 

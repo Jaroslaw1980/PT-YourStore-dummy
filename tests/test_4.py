@@ -1,6 +1,6 @@
-from Selenium.PTYourStore.pages.mainPage import MainPage
-from Selenium.PTYourStore.pages.shoppingCart import ShoppingCart
-from Selenium.PTYourStore.utilities.BaseClass import BaseClass
+from pages.mainPage import MainPage
+from pages.shoppingCart import ShoppingCart
+from utilities.BaseClass import BaseClass
 
 
 class TestFour(BaseClass):

@@ -1,8 +1,9 @@
-from Selenium.PTYourStore.pages.registerAccount import RegisterAccount
-from Selenium.PTYourStore.pages.loginPage import LoginPage
-from Selenium.PTYourStore.locators.locators import Locators
+from pages.registerAccount import RegisterAccount
+from pages.loginPage import LoginPage
+from locators.locators import Locators
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
 
 class MainPage:
 

@@ -1,10 +1,11 @@
-import pytest
+from pytest import fixture
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
-@pytest.fixture(scope="class")
+
+@fixture(scope="class")
 def setup(request):
-    s = Service('C:/Selenium - dev/Drivers/chromedriver.exe')
+    s = Service('C:/Selenium - drivers/Chrome/chromedriver.exe')
     driver = webdriver.Chrome(service=s)
     driver.get('http://tutorialsninja.com/demo/index.php?route=common/home')
     driver.maximize_window()

@@ -1,7 +1,8 @@
 import pytest
-from Selenium.PTYourStore.testData.registerAccountData import RegisterAccountData
-from Selenium.PTYourStore.pages.mainPage import MainPage
-from Selenium.PTYourStore.utilities.BaseClass import BaseClass
+from testData.registerAccountData import RegisterAccountData
+from pages.mainPage import MainPage
+from utilities.BaseClass import BaseClass
+
 
 class TestThree(BaseClass):
 

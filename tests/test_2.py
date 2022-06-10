@@ -1,7 +1,8 @@
 import pytest
-from Selenium.PTYourStore.testData.loginData import LoginData
-from Selenium.PTYourStore.pages.mainPage import MainPage
-from Selenium.PTYourStore.utilities.BaseClass import BaseClass
+from testData.loginData import LoginData
+from pages.mainPage import MainPage
+from utilities.BaseClass import BaseClass
+
 
 class TestTwo(BaseClass): # testing loggin happy path
 
