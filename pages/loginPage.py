@@ -10,6 +10,7 @@ class LoginPage:
         self.input_email_logPg_ID = Locators.input_email_logPg_ID
         self.input_password_logPg_ID = Locators.input_password_logPg_ID
         self.submit_button_logPg_XPATH = Locators.submit_button_logPg_XPATH
+        self.popup_text_logPg_XPATH = Locators.popup_text_logPg_XPATH
 
     def input_email(self, email):
         self.driver.find_element(By.ID, self.input_email_logPg_ID).clear()
@@ -21,3 +22,8 @@ class LoginPage:
 
     def click_submit(self):
         self.driver.find_element(By.XPATH, self.submit_button_logPg_XPATH).click()
+
+    def wrong_login_popup_text(self):   # Warning: No match for E-Mail Address and/or Password.
+        popup = self.driver.find_element(By.XPATH, self.popup_text_logPg_XPATH)
+        return popup
+

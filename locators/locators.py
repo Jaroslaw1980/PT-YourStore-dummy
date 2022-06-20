@@ -12,6 +12,7 @@ class Locators:
     input_email_logPg_ID = "input-email"
     input_password_logPg_ID = "input-password"
     submit_button_logPg_XPATH = "//input[@type='submit']"
+    popup_text_logPg_XPATH = "//*[text()=' Warning: No match for E-Mail Address and/or Password.']"
 
     # shoppingCart
 
@@ -28,12 +29,19 @@ class Locators:
     # registerAccount
 
     input_firstname_RegAcc_ID = "input-firstname"
+    error_popup_firstname_RegAcc_XPATH = "(//div[@class='text-danger'])[1]"
     input_lastname_RegAcc_ID = "input-lastname"
+    error_popup_lastname_Regcc_XPATH = "(//div[@class='text-danger'])[2]"
     input_email_RegAcc_ID = "input-email"
+    error_popup_email_RegAcc_XPATH = "(//div[@class='text-danger'])[3]"
     input_telephone_RegAcc_ID = "input-telephone"
+    error_popup_telephone_RegAcc_XPATH = "(//div[@class='text-danger'])[4]"
     input_password_RegAcc_ID = "input-password"
+    error_popup_password_RegAcc_XPATH = "(//div[@class='text-danger'])[5]"
     confirm_password_RegAcc_ID = "input-confirm"
+    error_popup_confirm_password_RegAcc_XPATH = "//div[text()='Password confirmation does not match password!']"
     click_checkbox_RegAcc_XPATH = "//input[@type='checkbox']"
+    error_popup_checkbox_RegAcc_XPATH = "//div[text()=' Warning: You must agree to the Privacy Policy!']"
     click_submit_RegAcc_XPATH = "//input[@type='submit']"
 
     # productDetailPage
