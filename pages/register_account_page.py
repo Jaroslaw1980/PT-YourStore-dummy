@@ -7,6 +7,7 @@ from utilities.base_urls import BaseUrls
 class RegisterAccount(BasePage):
 
     base_url = BaseUrls.register_page_url
+
     input_firstname_RegAcc_ID = RegisterAccountLocators.input_firstname_RegAcc_ID
     error_popup_firstname_RegAcc_XPATH = RegisterAccountLocators.error_popup_firstname_RegAcc_XPATH
     input_lastname_RegAcc_ID = RegisterAccountLocators.input_lastname_RegAcc_ID

@@ -1,5 +1,5 @@
-from pages.registerAccount import RegisterAccount
-from pages.loginPage import LoginPage
+from pages.register_account_page import RegisterAccount
+from pages.login_page import LoginPage
 from locators.locators import MainPageLocators
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -10,6 +10,7 @@ from utilities.base_urls import BaseUrls
 class MainPage(BasePage):
 
     base_url = BaseUrls.main_page_url
+
     choose_currency_mainPg_XPATH = MainPageLocators.choose_currency_mainPg_XPATH
     dropdown_elements_mainPg_XPATH = MainPageLocators.dropdown_elements_mainPg_XPATH
     click_currency_mainPg_CSS_SELECTOR = MainPageLocators.click_currency_mainPg_CSS_SELECTOR

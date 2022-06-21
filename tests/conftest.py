@@ -1,5 +1,6 @@
 from pytest import fixture
 from selenium import webdriver
+from pages.login_page import LoginPage
 
 
 @fixture(scope='class')
@@ -10,6 +11,15 @@ def setup(request):
     yield
     driver.close()
     driver.quit()
+
+
+@fixture(scope='session')
+def auto_login(self):
+    login = LoginPage(self.driver)
+    login.go_to_page()
+    login.input_email("YaroBaro@gmail.com")
+    login.input_email("YaroBaro")
+    login.click_submit()
 
 
 

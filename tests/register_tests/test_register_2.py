@@ -1,5 +1,5 @@
 from pytest import mark
-from pages.registerAccount import RegisterAccount
+from pages.register_account_page import RegisterAccount
 
 
 @mark.usefixtures("setup")

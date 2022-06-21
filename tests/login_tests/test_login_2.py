@@ -1,5 +1,5 @@
-from pages.mainPage import MainPage
-from pages.loginPage import LoginPage
+from pages.main_page import MainPage
+from pages.login_page import LoginPage
 from pytest import mark
 
 

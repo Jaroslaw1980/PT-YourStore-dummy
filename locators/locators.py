@@ -82,3 +82,45 @@ class MainPageLocators:
     add_to_cart_button_mainPG_XPATH = "//span[text()='Add to Cart']"
 
 
+class ContantUSLocators:
+
+    input_name_ID = "input-name"
+    error_add_name_XPATH = "//div[text()='Name must be between 3 and 32 characters!']"
+    input_email_ID = "input-email"
+    error_add_email_XPATH = "//div[text()='E-Mail Address does not appear to be valid!']"
+    input_enquiry_ID = "input-enquiry"
+    error_add_enquiry_XPATH = "//div[text()='Enquiry must be between 10 and 3000 characters!']"
+    click_submit_CSS = "input[type='submit']"
+
+
+class ProductReturnsPageLocators:
+
+    add_firstname_ID = "input-firstname"
+    error_add_firstname_XPATH = "//div[text()='First Name must be between 1 and 32 characters!']"
+    add_lastname_ID = "input-lastname"
+    error_add_lastname_XPATH = "//div[text()='Last Name must be between 1 and 32 characters!']"
+    add_email_ID = "input-email"
+    add_error_email_XPATH = "//div[text()='E-Mail Address does not appear to be valid!']"
+    add_telephone_ID = "input-telephone"
+    error_add_telephone_XPATH = "//div[text()='Telephone must be between 3 and 32 characters!']"
+    add_order_id_ID = "input-order-id"
+    error_order_id_XPATH = "//div[text()='Order ID required!']"
+    add_order_date_ID = "input-date-ordered"
+    add_product_name_ID = "input-product"
+    error_add_product_name_XPATH = "//div[text()='Product Name must be greater than 3 and less than 255 characters!']"
+    add_product_code_ID = "input-model"
+    error_product_code_XPATH = "//div[text()='Product Model must be greater than 3 and less than 64 characters!']"
+    add_quantity_ID = "input-quantity"
+    add_reason_for_return_XPATH = "//div[@class='col-sm-10']/div[@class='radio']"
+    error_reason_for_reutrn_XPATH = "//div[text()='You must select a return product reason!']"
+    check_if_product_was_opened_XPATH = "//div[@class='col-sm-10']/label[@class='radio-inline']"
+    add_details_ID = "input-comment"
+    click_back_button_LINK_TEXT = "Back"
+    click_submit_button_CSS_SELECTOR = "input[type=submit]"
+
+
+
+
+
+
+
