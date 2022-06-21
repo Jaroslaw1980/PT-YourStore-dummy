@@ -9,10 +9,9 @@ from pytest import mark
 @mark.usefixtures("setup")
 class LoginNegativeTests:
 
-    def test_myaccount_button(self):
-        main = MainPage(self.driver)
-        main.click_my_account()
-        main.click_login()
+    def test_go_to_page(self):
+        page = LoginPage(self.driver)
+        page.go_to_page()
 
     @mark.parametrize('emails', ["a", "Yaro", "Baro", "YaroBaro.com", "@", " "])
     def test_email_inputs(self, emails):

@@ -1,15 +1,13 @@
 from pytest import mark
-from pages.mainPage import MainPage
 from pages.registerAccount import RegisterAccount
 
 
 @mark.usefixtures("setup")
 class RegisterNegativeTests:
 
-    def test_registration_path(self):
-        main = MainPage(self.driver)
-        main.click_my_account()
-        main.click_register()
+    def test_go_to_page(self):
+        page = RegisterAccount(self.driver)
+        page.go_to_page()
 
     def test_checkbox(self):
         register = RegisterAccount(self.driver)

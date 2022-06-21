@@ -4,10 +4,12 @@ from locators.locators import MainPageLocators
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
+from utilities.base_urls import BaseUrls
 
 
 class MainPage(BasePage):
 
+    base_url = BaseUrls.main_page_url
     choose_currency_mainPg_XPATH = MainPageLocators.choose_currency_mainPg_XPATH
     dropdown_elements_mainPg_XPATH = MainPageLocators.dropdown_elements_mainPg_XPATH
     click_currency_mainPg_CSS_SELECTOR = MainPageLocators.click_currency_mainPg_CSS_SELECTOR

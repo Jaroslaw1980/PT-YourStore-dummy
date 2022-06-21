@@ -9,10 +9,9 @@ from pytest import mark
 @mark.usefixtures("setup")
 class LoginPossitiveTests:
 
-    def test_myaccount_button(self):
-        main = MainPage(self.driver)
-        main.click_my_account()
-        main.click_login()
+    def test_go_to_page(self):
+        page = LoginPage(self.driver)
+        page.go_to_page()
 
     def test_login(self):
         login = LoginPage(self.driver)
