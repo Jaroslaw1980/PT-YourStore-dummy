@@ -1,20 +1,20 @@
-class Locators:
-
-    # productListPage
+class ProductListPageLocators:
 
     sort_by_list_pLp_ID = 'list-view'
     sort_by_grid_pLp_ID = 'grid-view'
     sort_by_text_pLp_ID = 'input-sort'
     how_many_on_page_pLp_ID = 'input-limit'
 
-    # loginPage
+
+class LoginPageLocators:
 
     input_email_logPg_ID = "input-email"
     input_password_logPg_ID = "input-password"
     submit_button_logPg_XPATH = "//input[@type='submit']"
     popup_text_logPg_XPATH = "//*[text()=' Warning: No match for E-Mail Address and/or Password.']"
 
-    # shoppingCart
+
+class ShoppingCartLocators:
 
     number_of_items_shpCrt_XPATH = "//input[contains(@name, 'quantity')]"
     submit_items_change_shpCrt_XPATH = "//button[@data-original-title='Update']"
@@ -26,7 +26,8 @@ class Locators:
     product_list_cart_shpCrt_XPATH = "//table/tbody/tr/td[6]"
     cart_total_value_shpCrt_XPATH = "//table[@class='table table-bordered']/tbody/tr[4]/td[2])[2]"
 
-    # registerAccount
+
+class RegisterAccountLocators:
 
     input_firstname_RegAcc_ID = "input-firstname"
     error_popup_firstname_RegAcc_XPATH = "(//div[@class='text-danger'])[1]"
@@ -44,7 +45,8 @@ class Locators:
     error_popup_checkbox_RegAcc_XPATH = "//div[text()=' Warning: You must agree to the Privacy Policy!']"
     click_submit_RegAcc_XPATH = "//input[@type='submit']"
 
-    # productDetailPage
+
+class ProductDetailPageLocators:
 
     set_product_quantity_pDp_ID = 'input-quantity'
     click_reviews_pDp_XPATH = "//a[contains(text(), 'Reviews')]"
@@ -55,7 +57,8 @@ class Locators:
     close_preview_pDp_XPATH = "//button[@title='Close (Esc)']"
     add_to_cart_pDp_XPATH = "(//*[text()='Add to Cart'])[1]"
 
-    # mainPage
+
+class MainPageLocators:
 
     choose_currency_mainPg_XPATH = "//span[text()='Currency']"
     dropdown_elements_mainPg_XPATH = "//ul[@class='dropdown-menu']/li/button"

@@ -1,16 +1,14 @@
-from locators.locators import Locators
+from locators.locators import LoginPageLocators
 from selenium.webdriver.common.by import By
+from pages.base_page import BasePage
 
 
-class LoginPage:
+class LoginPage(BasePage):
 
-    def __init__(self, driver):
-        self.driver = driver
-
-        self.input_email_logPg_ID = Locators.input_email_logPg_ID
-        self.input_password_logPg_ID = Locators.input_password_logPg_ID
-        self.submit_button_logPg_XPATH = Locators.submit_button_logPg_XPATH
-        self.popup_text_logPg_XPATH = Locators.popup_text_logPg_XPATH
+    input_email_logPg_ID = LoginPageLocators.input_email_logPg_ID
+    input_password_logPg_ID = LoginPageLocators.input_password_logPg_ID
+    submit_button_logPg_XPATH = LoginPageLocators.submit_button_logPg_XPATH
+    popup_text_logPg_XPATH = LoginPageLocators.popup_text_logPg_XPATH
 
     def input_email(self, email):
         self.driver.find_element(By.ID, self.input_email_logPg_ID).clear()

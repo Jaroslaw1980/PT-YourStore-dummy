@@ -1,26 +1,25 @@
-from locators.locators import Locators
+from locators.locators import RegisterAccountLocators
 from selenium.webdriver.common.by import By
+from pages.base_page import BasePage
 
 
-class RegisterAccount:
-    def __init__(self, driver):
-        self.driver = driver
+class RegisterAccount(BasePage):
 
-        self.input_firstname_RegAcc_ID = Locators.input_firstname_RegAcc_ID
-        self.error_popup_firstname_RegAcc_XPATH = Locators.error_popup_firstname_RegAcc_XPATH
-        self.input_lastname_RegAcc_ID = Locators.input_lastname_RegAcc_ID
-        self.error_popup_lastname_Regcc_XPATH = Locators.error_popup_lastname_Regcc_XPATH
-        self.input_email_RegAcc_ID = Locators.input_email_RegAcc_ID
-        self.error_popup_email_RegAcc_XPATH = Locators.error_popup_email_RegAcc_XPATH
-        self.input_telephone_RegAcc_ID = Locators.input_telephone_RegAcc_ID
-        self.error_popup_telephone_RegAcc_XPATH = Locators.error_popup_telephone_RegAcc_XPATH
-        self.input_password_RegAcc_ID = Locators.input_password_RegAcc_ID
-        self.error_popup_password_RegAcc_XPATH = Locators.error_popup_password_RegAcc_XPATH
-        self.confirm_password_RegAcc_ID = Locators.confirm_password_RegAcc_ID
-        self.error_popup_confirm_password_RegAcc_XPATH = Locators.error_popup_confirm_password_RegAcc_XPATH
-        self.click_checkbox_RegAcc_XPATH = Locators.click_checkbox_RegAcc_XPATH
-        self.error_popup_checkbox_RegACC_XPATH = Locators.error_popup_checkbox_RegAcc_XPATH
-        self.click_submit_RegAcc_XPATH = Locators.click_submit_RegAcc_XPATH
+    input_firstname_RegAcc_ID = RegisterAccountLocators.input_firstname_RegAcc_ID
+    error_popup_firstname_RegAcc_XPATH = RegisterAccountLocators.error_popup_firstname_RegAcc_XPATH
+    input_lastname_RegAcc_ID = RegisterAccountLocators.input_lastname_RegAcc_ID
+    error_popup_lastname_Regcc_XPATH = RegisterAccountLocators.error_popup_lastname_Regcc_XPATH
+    input_email_RegAcc_ID = RegisterAccountLocators.input_email_RegAcc_ID
+    error_popup_email_RegAcc_XPATH = RegisterAccountLocators.error_popup_email_RegAcc_XPATH
+    input_telephone_RegAcc_ID = RegisterAccountLocators.input_telephone_RegAcc_ID
+    error_popup_telephone_RegAcc_XPATH = RegisterAccountLocators.error_popup_telephone_RegAcc_XPATH
+    input_password_RegAcc_ID = RegisterAccountLocators.input_password_RegAcc_ID
+    error_popup_password_RegAcc_XPATH = RegisterAccountLocators.error_popup_password_RegAcc_XPATH
+    confirm_password_RegAcc_ID = RegisterAccountLocators.confirm_password_RegAcc_ID
+    error_popup_confirm_password_RegAcc_XPATH = RegisterAccountLocators.error_popup_confirm_password_RegAcc_XPATH
+    click_checkbox_RegAcc_XPATH = RegisterAccountLocators.click_checkbox_RegAcc_XPATH
+    error_popup_checkbox_RegACC_XPATH = RegisterAccountLocators.error_popup_checkbox_RegAcc_XPATH
+    click_submit_RegAcc_XPATH = RegisterAccountLocators.click_submit_RegAcc_XPATH
 
     def input_firstname(self, firstname):
         self.driver.find_element(By.ID, self.input_firstname_RegAcc_ID).clear()

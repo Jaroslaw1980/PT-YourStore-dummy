@@ -1,21 +1,19 @@
-from locators.locators import Locators
+from locators.locators import ShoppingCartLocators
 from selenium.webdriver.common.by import By
+from pages.base_page import BasePage
 
 
-class ShoppingCart:
+class ShoppingCart(BasePage):
 
-    def __init__(self, driver):
-        self.driver = driver
-
-        self.number_of_items_shpCrt_XPATH = Locators.number_of_items_shpCrt_XPATH
-        self.submit_items_change_shpCrt_XPATH = Locators.number_of_items_shpCrt_XPATH
-        self.remove_from_cart_shpCrt_XPATH = Locators.remove_from_cart_shpCrt_XPATH
-        self.use_coupon_shpCrt_XPATH = Locators.use_coupon_shpCrt_XPATH
-        self.input_coupon_code_shpCrt_ID = Locators.input_coupon_code_shpCrt_ID
-        self.submit_coupon_shpCrt_CSS_SELECTOR = Locators.submit_coupon_shpCrt_CSS_SELECTOR
-        self.click_checkout_shpCrt_LINK_TEXT = Locators.click_checkout_shpCrt_LINK_TEXT
-        self.product_list_cart_shpCrt_XPATH = Locators.product_list_cart_shpCrt_XPATH
-        self.cart_total_value_shpCrt_XPATH = Locators.cart_total_value_shpCrt_XPATH
+    number_of_items_shpCrt_XPATH = ShoppingCartLocators.number_of_items_shpCrt_XPATH
+    submit_items_change_shpCrt_XPATH = ShoppingCartLocators.number_of_items_shpCrt_XPATH
+    remove_from_cart_shpCrt_XPATH = ShoppingCartLocators.remove_from_cart_shpCrt_XPATH
+    use_coupon_shpCrt_XPATH = ShoppingCartLocators.use_coupon_shpCrt_XPATH
+    input_coupon_code_shpCrt_ID = ShoppingCartLocators.input_coupon_code_shpCrt_ID
+    submit_coupon_shpCrt_CSS_SELECTOR = ShoppingCartLocators.submit_coupon_shpCrt_CSS_SELECTOR
+    click_checkout_shpCrt_LINK_TEXT = ShoppingCartLocators.click_checkout_shpCrt_LINK_TEXT
+    product_list_cart_shpCrt_XPATH = ShoppingCartLocators.product_list_cart_shpCrt_XPATH
+    cart_total_value_shpCrt_XPATH = ShoppingCartLocators.cart_total_value_shpCrt_XPATH
 
     def change_number_of_items(self, number):
         self.driver.find_element(By.XPATH, self.number_of_items_shpCrt_XPATH).send_keys(number)

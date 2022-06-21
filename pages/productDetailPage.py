@@ -1,21 +1,18 @@
-from locators.locators import Locators
+from locators.locators import ProductDetailPageLocators
 from selenium.webdriver.common.by import By
+from pages.base_page import BasePage
 
 
-class ProductDetailPage:
+class ProductDetailPage(BasePage):
 
-    def __init__(self, driver):
-
-        self.driver = driver
-
-        self.set_product_quantity_pDp_ID = Locators.set_product_quantity_pDp_ID
-        self.click_reviews_pDp_XPATH = Locators.click_reviews_pDp_XPATH
-        self.click_description_pDp_XPATH = Locators.click_description_pDp_XPATH
-        self.click_image_pDp_XPATH = Locators.click_image_pDp_XPATH
-        self.click_arrow_right_pDp_XPATH = Locators.click_arrow_right_pDp_XPATH
-        self.click_arrow_left_pDp_XPATH = Locators.click_arrow_left_pDp_XPATH
-        self.close_preview_pDp_XPATH = Locators.close_preview_pDp_XPATH
-        self.add_to_cart_pDp_XPATH = Locators.add_to_cart_pDp_XPATH
+    set_product_quantity_pDp_ID = ProductDetailPageLocators.set_product_quantity_pDp_ID
+    click_reviews_pDp_XPATH = ProductDetailPageLocators.click_reviews_pDp_XPATH
+    click_description_pDp_XPATH = ProductDetailPageLocators.click_description_pDp_XPATH
+    click_image_pDp_XPATH = ProductDetailPageLocators.click_image_pDp_XPATH
+    click_arrow_right_pDp_XPATH = ProductDetailPageLocators.click_arrow_right_pDp_XPATH
+    click_arrow_left_pDp_XPATH = ProductDetailPageLocators.click_arrow_left_pDp_XPATH
+    close_preview_pDp_XPATH = ProductDetailPageLocators.close_preview_pDp_XPATH
+    add_to_cart_pDp_XPATH = ProductDetailPageLocators.add_to_cart_pDp_XPATH
 
     def set_products_quantity(self, number):
         self.driver.find_element(By.ID, self.set_product_quantity_pDp_ID).clear()

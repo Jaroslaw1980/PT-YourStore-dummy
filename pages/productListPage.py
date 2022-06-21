@@ -1,17 +1,15 @@
-from locators.locators import Locators
+from locators.locators import ProductListPageLocators
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
+from pages.base_page import BasePage
 
 
-class ProductListPage:
+class ProductListPage(BasePage):
 
-    def __init__(self, driver):
-        self.driver = driver
-
-        self.sort_by_list_pLp_ID = Locators.sort_by_list_pLp_ID
-        self.sort_by_grid_pLp_ID = Locators.sort_by_grid_pLp_ID
-        self.sort_by_text_pLp_ID = Locators.sort_by_text_pLp_ID
-        self.how_many_on_page_pLp_ID = Locators.how_many_on_page_pLp_ID
+    sort_by_list_pLp_ID = ProductListPageLocators.sort_by_list_pLp_ID
+    sort_by_grid_pLp_ID = ProductListPageLocators.sort_by_grid_pLp_ID
+    sort_by_text_pLp_ID = ProductListPageLocators.sort_by_text_pLp_ID
+    how_many_on_page_pLp_ID = ProductListPageLocators.how_many_on_page_pLp_ID
 
     def sort_by_list(self):
         self.driver.find_element(By.ID, self.sort_by_list_pLp_ID).click()
