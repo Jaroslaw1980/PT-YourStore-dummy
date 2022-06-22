@@ -8,10 +8,10 @@ class LoginPage(BasePage):
 
     base_url = BaseUrls.login_page_url
 
-    input_email_ID = LoginPageLocators.input_email_logPg_ID
-    input_password_ID = LoginPageLocators.input_password_logPg_ID
-    submit_button_XPATH = LoginPageLocators.submit_button_logPg_XPATH
-    popup_text_XPATH = LoginPageLocators.popup_text_logPg_XPATH
+    input_email_ID = LoginPageLocators.input_email_ID
+    input_password_ID = LoginPageLocators.input_password_ID
+    submit_button_XPATH = LoginPageLocators.submit_button_XPATH
+    popup_text_XPATH = LoginPageLocators.popup_text_XPATH
 
     def input_email(self, email):
         self.driver.find_element(By.ID, self.input_email_ID).clear()
