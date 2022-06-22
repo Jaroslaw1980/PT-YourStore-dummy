@@ -15,8 +15,9 @@ class ProductDetailPage(BasePage):
     add_to_cart_XPATH = ProductDetailPageLocators.add_to_cart_XPATH
 
     def set_products_quantity(self, number):
-        self.driver.find_element(By.ID, self.set_product_quantity_ID).clear()
-        self.driver.find_element(By.ID, self.set_product_quantity_ID).send_keys(number)
+        value = self.driver.find_element(By.ID, self.set_product_quantity_ID)
+        value.clear()
+        value.send_keys(number)
 
     def click_reviews(self):
         self.driver.find_element(By.XPATH, self.click_reviews_XPATH).click()

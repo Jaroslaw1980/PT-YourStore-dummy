@@ -25,48 +25,54 @@ class RegisterAccount(BasePage):
     click_submit_XPATH = RegisterAccountLocators.click_submit_XPATH
 
     def input_firstname(self, firstname):
-        self.driver.find_element(By.ID, self.input_firstname_ID).clear()
-        self.driver.find_element(By.ID, self.input_firstname_ID).send_keys(firstname)
+        first_name = self.driver.find_element(By.ID, self.input_firstname_ID)
+        first_name.clear()
+        first_name.send_keys(firstname)
 
     def error_popup_firstname(self):
         popup = self.driver.find_element(By.XPATH, self.error_popup_firstname_XPATH)
         return popup
 
     def input_lastname(self, lastname):
-        self.driver.find_element(By.ID, self.input_lastname_ID).clear()
-        self.driver.find_element(By.ID, self.input_lastname_ID).send_keys(lastname)
+        last_name = self.driver.find_element(By.ID, self.input_lastname_ID)
+        last_name.clear()
+        last_name.send_keys(lastname)
 
     def error_popup_lastname(self):
         popup = self.driver.find_element(By.XPATH, self.error_popup_lastname_XPATH)
         return popup
 
     def input_email(self, email):
-        self.driver.find_element(By.ID, self.input_email_ID).clear()
-        self.driver.find_element(By.ID, self.input_email_ID).send_keys(email)
+        e_mail = self.driver.find_element(By.ID, self.input_email_ID)
+        e_mail.clear()
+        e_mail.send_keys(email)
 
     def error_popup_email(self):
         popup = self.driver.find_element(By.XPATH, self.error_popup_email_XPATH)
         return popup
 
     def input_telephone(self, telephone):
-        self.driver.find_element(By.ID, self.input_telephone_ID).clear()
-        self.driver.find_element(By.ID, self.input_telephone_ID).send_keys(telephone)
+        telephone_input = self.driver.find_element(By.ID, self.input_telephone_ID)
+        telephone_input.clear()
+        telephone_input.send_keys(telephone)
 
     def error_popup_telephone(self):
         popup = self.driver.find_element(By.XPATH, self.error_popup_telephone_XPATH)
         return popup
 
     def input_password(self, password):
-        self.driver.find_element(By.ID, self.input_password_ID).clear()
-        self.driver.find_element(By.ID, self.input_password_ID).send_keys(password)
+        password_input = self.driver.find_element(By.ID, self.input_password_ID)
+        password_input.clear()
+        password_input.send_keys(password)
 
     def error_popup_password(self):
         popup = self.driver.find_element(By.XPATH, self.error_popup_password_XPATH)
         return popup
 
     def confirm_password(self, confirm):
-        self.driver.find_element(By.ID, self.confirm_password_ID).clear()
-        self.driver.find_element(By.ID, self.confirm_password_ID).send_keys(confirm)
+        password_confirmation = self.driver.find_element(By.ID, self.confirm_password_ID)
+        password_confirmation.clear()
+        password_confirmation.send_keys(confirm)
 
     def error_popup_confirm_password(self):
         popup = self.driver.find_element(By.XPATH, self.error_popup_confirm_password_XPATH)

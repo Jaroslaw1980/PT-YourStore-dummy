@@ -16,7 +16,9 @@ class ShoppingCart(BasePage):
     cart_total_value_XPATH = ShoppingCartLocators.cart_total_value_XPATH
 
     def change_number_of_items(self, number):
-        self.driver.find_element(By.XPATH, self.number_of_items_XPATH).send_keys(number)
+        items_number = self.driver.find_element(By.XPATH, self.number_of_items_XPATH)
+        items_number.clear()
+        items_number.send_keys(number)
 
     def submit_items_change(self):
         self.driver.find_element(By.XPATH, self.submit_items_change_XPATH).click()
@@ -28,7 +30,9 @@ class ShoppingCart(BasePage):
         self.driver.find_element(By.XPATH, self.use_coupon_XPATH).click()
 
     def input_coupon_code(self, code):
-        self.driver.find_element(By.ID, self.input_coupon_code_ID).send_keys(code)
+        coupon_code = self.driver.find_element(By.ID, self.input_coupon_code_ID)
+        coupon_code.clear()
+        coupon_code.send_keys(code)
 
     def submit_coupon(self):
         self.driver.find_element(By.CSS_SELECTOR, self.submit_coupon_CSS_SELECTOR).click()

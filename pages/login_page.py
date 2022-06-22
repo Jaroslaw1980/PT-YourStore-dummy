@@ -14,12 +14,14 @@ class LoginPage(BasePage):
     popup_text_XPATH = LoginPageLocators.popup_text_XPATH
 
     def input_email(self, email):
-        self.driver.find_element(By.ID, self.input_email_ID).clear()
-        self.driver.find_element(By.ID, self.input_email_ID).send_keys(email)
+        email_input = self.driver.find_element(By.ID, self.input_email_ID)
+        email_input.clear()
+        email_input.send_keys(email)
 
     def input_password(self, password):
-        self.driver.find_element(By.ID, self.input_password_ID).clear()
-        self.driver.find_element(By.ID, self.input_password_ID).send_keys(password)
+        password_input = self.driver.find_element(By.ID, self.input_password_ID)
+        password_input.clear()
+        password_input.send_keys(password)
 
     def click_submit(self):
         self.driver.find_element(By.XPATH, self.submit_button_XPATH).click()

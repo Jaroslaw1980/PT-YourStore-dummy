@@ -59,8 +59,9 @@ class MainPage(BasePage):
         self.driver.find_element(By.ID, self.click_cart_ID).click()
 
     def searching(self, search):
-        self.driver.find_element(By.NAME, self.searching_NAME).clear()
-        self.driver.find_element(By.NAME, self.searching_NAME).send_keys(search)
+        searching_bar = self.driver.find_element(By.NAME, self.searching_NAME)
+        searching_bar.clear()
+        searching_bar.send_keys(search)
 
     def click_search_button(self):
         self.driver.find_element(By.CSS_SELECTOR, self.click_search_button_CSS_SELECTOR).click()
