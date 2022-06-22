@@ -1,6 +1,6 @@
-from pages.main_page import MainPage
 from pages.login_page import LoginPage
 from pytest import mark
+from test_data.test_login_2_data import TestLogin2Data
 
 
 @mark.regression
@@ -13,14 +13,14 @@ class LoginNegativeTests:
         page = LoginPage(self.driver)
         page.go_to_page()
 
-    @mark.parametrize('emails', ["a", "Yaro", "Baro", "YaroBaro.com", "@", " "])
+    @mark.parametrize('emails', TestLogin2Data.emails)
     def test_email_inputs(self, emails):
         login = LoginPage(self.driver)
         login.input_email(emails)
         login.click_submit()
         assert login.wrong_login_popup_text().is_displayed(), 'No popup with wrong credentials'
 
-    @mark.parametrize('logins', ["B", "Baro", "BaroYaro", " ", "@"])
+    @mark.parametrize('logins', TestLogin2Data.logins)
     def test_login_inputs(self, logins):
         login = LoginPage(self.driver)
         login.input_password(logins)

@@ -1,5 +1,6 @@
 from pytest import mark
 from pages.register_account_page import RegisterAccount
+from test_data.test_register_2_data import TestRegister2Data
 
 
 @mark.usefixtures("setup")
@@ -14,7 +15,7 @@ class RegisterNegativeTests:
         register.click_submit()
         assert register.error_popup_checkbox().is_displayed(), 'No error message'
 
-    @mark.parametrize("confirm", ["", " ", "0", "a", "passwor", "passworda"])
+    @mark.parametrize("confirm", TestRegister2Data.confirm_password)
     def test_registration_confirm_password(self, confirm):
         register = RegisterAccount(self.driver)
         register.input_password('password')
@@ -23,7 +24,7 @@ class RegisterNegativeTests:
         register.click_submit()
         assert register.error_popup_confirm_password().is_displayed(), 'No popup error'
 
-    @mark.parametrize("firstname", ["", " ", "Name", "ajsndkfiemcjtugjfheowlqpdlvmxnze4"])
+    @mark.parametrize("firstname", TestRegister2Data.register_first_name)
     def test_registration_firstname(self, firstname):
         register = RegisterAccount(self.driver)
         register.input_firstname(firstname)
@@ -31,7 +32,7 @@ class RegisterNegativeTests:
         register.click_submit()
         assert register.error_popup_firstname().is_displayed(), 'No error popup'
 
-    @mark.parametrize("lastname", ["", " ", "ajsndkfiemcjtugjfheowlqpdlvmxnze4"])
+    @mark.parametrize("lastname", TestRegister2Data.register_last_name)
     def test_registration_lastname(self, lastname):
         register = RegisterAccount(self.driver)
         register.input_lastname(lastname)
@@ -39,7 +40,7 @@ class RegisterNegativeTests:
         register.click_submit()
         assert register.error_popup_lastname().is_displayed(), 'No error popup'
 
-    @mark.parametrize("email", ["", " ", "ajsndkfiemcjtugjfheowlqpdlvmxnze4"])
+    @mark.parametrize("email", TestRegister2Data.register_email)
     def test_registration_email(self, email):
         register = RegisterAccount(self.driver)
         register.input_email(email)
@@ -47,7 +48,7 @@ class RegisterNegativeTests:
         register.click_submit()
         assert register.error_popup_email().is_displayed(), 'No error popup'
 
-    @mark.parametrize("telephone", ["", " ", "0", "1", "12", "123456789098765432123456789098765"])
+    @mark.parametrize("telephone", TestRegister2Data.register_telephone)
     def test_registration_telephone(self, telephone):
         register = RegisterAccount(self.driver)
         register.input_telephone(telephone)
@@ -55,7 +56,7 @@ class RegisterNegativeTests:
         register.click_submit()
         assert register.error_popup_telephone().is_displayed(), 'No popup error'
 
-    @mark.parametrize("password", ["", " ", "0", "a", "ab", "abc", "mbnfjdksoejdkfirytjgo"])
+    @mark.parametrize("password", TestRegister2Data.register_password)
     def test_registration_password(self, password):
         register = RegisterAccount(self.driver)
         register.input_password(password)
