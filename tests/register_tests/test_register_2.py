@@ -1,6 +1,9 @@
-from pytest import mark
 from pages.register_account_page import RegisterAccount
+from pytest import mark
 from test_data.test_register_2_data import TestRegister2Data
+
+
+# TODO: write comments
 
 
 @mark.usefixtures("setup")
@@ -63,7 +66,3 @@ class RegisterNegativeTests:
         register.click_checkbox()
         register.click_submit()
         assert register.error_popup_password().is_displayed(), 'No popup error'
-
-
-
-
