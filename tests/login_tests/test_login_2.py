@@ -16,14 +16,14 @@ class LoginNegativeTests:
     @mark.parametrize('emails', TestLogin2Data.emails)
     def test_email_inputs(self, emails):
         login = LoginPage(self.driver)
-        login.input_email(emails)
+        login.enter_email(emails)
         login.click_submit()
-        assert login.wrong_login_popup_text().is_displayed(), 'No popup with wrong credentials'
+        assert login.get_wrong_login_popup_text().is_displayed(), 'No popup with wrong credentials'
 
     @mark.parametrize('logins', TestLogin2Data.logins)
     def test_login_inputs(self, logins):
         login = LoginPage(self.driver)
-        login.input_password(logins)
+        login.enter_password(logins)
         login.click_submit()
-        assert login.wrong_login_popup_text().is_displayed(), 'No popup with wrong credentials'
+        assert login.get_wrong_login_popup_text().is_displayed(), 'No popup with wrong credentials'
 

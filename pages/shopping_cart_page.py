@@ -1,6 +1,6 @@
 from locators.locators import ShoppingCartLocators
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from base.base_page import BasePage
 
 
 class ShoppingCart(BasePage):

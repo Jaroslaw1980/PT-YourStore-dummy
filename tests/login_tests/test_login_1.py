@@ -14,8 +14,8 @@ class LoginPossitiveTests:
 
     def test_login(self):
         login = LoginPage(self.driver)
-        login.input_email("YaroBaro@gmail.com")
-        login.input_password("YaroBaro")
+        login.enter_email("YaroBaro@gmail.com")
+        login.enter_password("YaroBaro")
         login.click_submit()
 
 

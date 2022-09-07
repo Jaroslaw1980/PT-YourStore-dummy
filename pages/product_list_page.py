@@ -1,7 +1,7 @@
 from locators.locators import ProductListPageLocators
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from base.base_page import BasePage
 
 
 class ProductListPage(BasePage):

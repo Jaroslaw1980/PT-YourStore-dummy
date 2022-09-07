@@ -3,7 +3,7 @@ from pages.login_page import LoginPage
 from locators.locators import MainPageLocators
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from base.base_page import BasePage
 from utilities.base_urls import BaseUrls
 
 

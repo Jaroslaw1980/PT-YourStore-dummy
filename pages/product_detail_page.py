@@ -1,6 +1,6 @@
 from locators.locators import ProductDetailPageLocators
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from base.base_page import BasePage
 
 
 class ProductDetailPage(BasePage):
