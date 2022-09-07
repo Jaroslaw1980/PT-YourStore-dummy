@@ -1,29 +1,44 @@
 from locators.locators import ProductListPageLocators
 from selenium.webdriver.support.select import Select
-from selenium.webdriver.common.by import By
 from base.base_page import BasePage
 
 
 class ProductListPage(BasePage):
 
-    sort_by_list_ID = ProductListPageLocators.sort_by_list_ID
-    sort_by_grid_ID = ProductListPageLocators.sort_by_grid_ID
-    sort_by_text_ID = ProductListPageLocators.sort_by_text_ID
-    how_many_on_page_ID = ProductListPageLocators.how_many_on_page_ID
+    # Locators
+    sort_by_list = ProductListPageLocators.sort_by_list_ID
+    sort_by_grid = ProductListPageLocators.sort_by_grid_ID
+    sort_by_text = ProductListPageLocators.sort_by_text_ID
+    how_many_on_page = ProductListPageLocators.how_many_on_page_ID
 
-    def sort_by_list(self):
-        self.driver.find_element(By.ID, self.sort_by_list_ID).click()
+    # Page elements
 
-    def sort_by_grid(self):
-        self.driver.find_element(By.ID, self.sort_by_grid_ID).click()
+    def get_sort_by_list_option(self):
+        return self.get_element(self.sort_by_list)
 
-    def sort_by_text(self, text):
-        sort = self.driver.find_element(By.ID, self.sort_by_text_ID)
+    def get_sort_by_grid_option(self):
+        return self.get_element(self.sort_by_grid)
+
+    def get_sort_by_text_option(self):
+        return self.get_element(self.sort_by_text)
+
+    def get_how_many_on_page_option(self):
+        return self.get_element(self.how_many_on_page)
+
+    # Page actions
+    def click_on_sort_by_list(self):
+        self.click_element(self.sort_by_list)
+
+    def click_on_sort_by_grid(self):
+        self.click_element(self.sort_by_grid)
+
+    def choose_sort_by_text(self, text):
+        sort = self.get_sort_by_text_option()
         options = Select(sort)
         options.select_by_visible_text(text)
 
-    def how_many_on_page(self, number):
-        input_limit = self.driver.find_element(By.ID, self.how_many_on_page_ID)
+    def set_how_many_on_page(self, number):
+        input_limit = self.get_how_many_on_page_option()
         options = Select(input_limit)
         options.select_by_visible_text(number)
 
