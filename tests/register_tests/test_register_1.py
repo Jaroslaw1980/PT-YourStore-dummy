@@ -11,14 +11,14 @@ class RegisterPossitiveTests:
 
     def test_registration_form(self):
         register = RegisterAccount(self.driver)
-        register.input_firstname("Yaro")
-        register.input_lastname("Baro")
-        register.input_email("YaroBaro@gmail.com")
-        register.input_telephone('345345345')
-        register.input_password("YaroBaro")
-        register.confirm_password("YaroBaro")
+        register.enter_firstname("Yaro")
+        register.enter_lastname("Baro")
+        register.enter_email("YaroBaro@gmail.com")
+        register.enter_telephone('345345345')
+        register.enter_password("YaroBaro")
+        register.enter_confirm_password("YaroBaro")
         register.click_checkbox()
-        assert register.checkbox().is_selected(), 'Checkbox is not selected'
+        assert register.get_checkbox().is_selected(), 'Checkbox is not selected'
 
 
 

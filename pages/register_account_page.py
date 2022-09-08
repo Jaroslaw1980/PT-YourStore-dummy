@@ -5,90 +5,94 @@ from utilities.base_urls import BaseUrls
 
 
 class RegisterAccount(BasePage):
-
+    # Url for register account page
     base_url = BaseUrls.register_page_url
 
-    input_firstname_ID = RegisterAccountLocators.input_firstname_ID
-    error_popup_firstname_XPATH = RegisterAccountLocators.error_popup_firstname_XPATH
-    input_lastname_ID = RegisterAccountLocators.input_lastname_ID
-    error_popup_lastname_XPATH = RegisterAccountLocators.error_popup_lastname_XPATH
-    input_email_ID = RegisterAccountLocators.input_email_ID
-    error_popup_email_XPATH = RegisterAccountLocators.error_popup_email_XPATH
-    input_telephone_ID = RegisterAccountLocators.input_telephone_ID
-    error_popup_telephone_XPATH = RegisterAccountLocators.error_popup_telephone_XPATH
-    input_password_ID = RegisterAccountLocators.input_password_ID
-    error_popup_password_XPATH = RegisterAccountLocators.error_popup_password_XPATH
-    confirm_password_ID = RegisterAccountLocators.confirm_password_ID
-    error_popup_confirm_password_XPATH = RegisterAccountLocators.error_popup_confirm_password_XPATH
-    click_checkbox_XPATH = RegisterAccountLocators.click_checkbox_XPATH
-    error_popup_checkbox_XPATH = RegisterAccountLocators.error_popup_checkbox_XPATH
-    click_submit_XPATH = RegisterAccountLocators.click_submit_XPATH
+    # Locators
+    firstname_field = RegisterAccountLocators.input_firstname_ID
+    error_popup_firstname = RegisterAccountLocators.error_popup_firstname_XPATH
+    lastname_field = RegisterAccountLocators.input_lastname_ID
+    error_popup_lastname = RegisterAccountLocators.error_popup_lastname_XPATH
+    email_field = RegisterAccountLocators.input_email_ID
+    error_popup_email = RegisterAccountLocators.error_popup_email_XPATH
+    telephone_field = RegisterAccountLocators.input_telephone_ID
+    error_popup_telephone = RegisterAccountLocators.error_popup_telephone_XPATH
+    password_field = RegisterAccountLocators.input_password_ID
+    error_popup_password = RegisterAccountLocators.error_popup_password_XPATH
+    confirm_password_field = RegisterAccountLocators.confirm_password_ID
+    error_popup_confirm_password = RegisterAccountLocators.error_popup_confirm_password_XPATH
+    checkbox = RegisterAccountLocators.click_checkbox_XPATH
+    error_popup_checkbox = RegisterAccountLocators.error_popup_checkbox_XPATH
+    submit_button = RegisterAccountLocators.click_submit_XPATH
 
-    def input_firstname(self, firstname):
-        first_name = self.driver.find_element(By.ID, self.input_firstname_ID)
-        first_name.clear()
-        first_name.send_keys(firstname)
+    # Page elements
 
-    def error_popup_firstname(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_firstname_XPATH)
-        return popup
+    def get_firstname_field(self):
+        return self.get_element(self.firstname_field)
 
-    def input_lastname(self, lastname):
-        last_name = self.driver.find_element(By.ID, self.input_lastname_ID)
-        last_name.clear()
-        last_name.send_keys(lastname)
+    def get_error_popup_firstname(self):
+        return self.get_element(self.error_popup_firstname, locator_type='xpath')
 
-    def error_popup_lastname(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_lastname_XPATH)
-        return popup
+    def get_lastname_field(self):
+        return self.get_element(self.lastname_field)
 
-    def input_email(self, email):
-        e_mail = self.driver.find_element(By.ID, self.input_email_ID)
-        e_mail.clear()
-        e_mail.send_keys(email)
+    def get_error_popup_lastname(self):
+        return self.get_element(self.error_popup_lastname, locator_type='xpath')
 
-    def error_popup_email(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_email_XPATH)
-        return popup
+    def get_email_field(self):
+        return self.get_element(self.email_field)
 
-    def input_telephone(self, telephone):
-        telephone_input = self.driver.find_element(By.ID, self.input_telephone_ID)
-        telephone_input.clear()
-        telephone_input.send_keys(telephone)
+    def get_error_popup_email(self):
+        return self.get_element(self.error_popup_email, locator_type='xpath')
 
-    def error_popup_telephone(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_telephone_XPATH)
-        return popup
+    def get_telephone_field(self):
+        return self.get_element(self.telephone_field)
 
-    def input_password(self, password):
-        password_input = self.driver.find_element(By.ID, self.input_password_ID)
-        password_input.clear()
-        password_input.send_keys(password)
+    def get_error_popup_telephone(self):
+        return self.get_element(self.error_popup_telephone, locator_type='xpath')
 
-    def error_popup_password(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_password_XPATH)
-        return popup
+    def get_password_field(self):
+        return self.get_element(self.password_field)
 
-    def confirm_password(self, confirm):
-        password_confirmation = self.driver.find_element(By.ID, self.confirm_password_ID)
-        password_confirmation.clear()
-        password_confirmation.send_keys(confirm)
+    def get_error_popup_password(self):
+        return self.get_element(self.error_popup_password, locator_type='xpath')
 
-    def error_popup_confirm_password(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_confirm_password_XPATH)
-        return popup
+    def get_confirm_password_field(self):
+        return self.get_element(self.confirm_password_field)
 
-    def checkbox(self):
-        checkbox = self.driver.find_element(By.XPATH, self.click_checkbox_XPATH)
-        return checkbox
+    def get_error_popup_confirm_password(self):
+        return self.get_element(self.error_popup_confirm_password, locator_type='xpath')
+
+    def get_checkbox(self):
+        return self.get_element(self.checkbox, locator_type='xpath')
+
+    def get_error_popup_checkbox(self):
+        return self.get_element(self.error_popup_checkbox, locator_type='xpath')
+
+    def get_submit_button(self):
+        return self.get_element(self.submit_button, locator_type='xpath')
+
+    # Page actions
+    def enter_firstname(self, firstname):
+        self.send_keys_to_element(firstname, self.firstname_field)
+
+    def enter_lastname(self, lastname):
+        self.send_keys_to_element(lastname, self.lastname_field)
+
+    def enter_email(self, email):
+        self.send_keys_to_element(email, self.email_field)
+
+    def enter_telephone(self, telephone):
+        self.send_keys_to_element(telephone, self.telephone_field)
+
+    def enter_password(self, password):
+        self.send_keys_to_element(password, self.password_field)
+
+    def enter_confirm_password(self, confirm):
+        self.send_keys_to_element(confirm, self.confirm_password_field)
 
     def click_checkbox(self):
-        self.driver.find_element(By.XPATH, self.click_checkbox_XPATH).click()
-
-    def error_popup_checkbox(self):
-        popup = self.driver.find_element(By.XPATH, self.error_popup_checkbox_XPATH)
-        return popup
+        self.click_element(self.checkbox, locator_type='xpath')
 
     def click_submit(self):
-        self.driver.find_element(By.XPATH, self.click_submit_XPATH).click()
-
+        self.click_element(self.submit_button, locator_type='xpath')
