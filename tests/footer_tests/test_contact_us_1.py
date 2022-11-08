@@ -2,6 +2,7 @@ from pages.contant_us_page import ContactUsPage
 from pytest import mark
 
 
+@mark.footerTests
 @mark.usefixtures("setup")
 class ContactUsTests:
 

@@ -2,6 +2,7 @@ from pages.product_returns_page import ProductReturnsPage
 from pytest import mark
 
 
+@mark.footerTests
 @mark.smoke
 @mark.usefixtures("setup")
 class ProductsReturnsTests:

@@ -5,7 +5,9 @@ from test_data.test_register_2_data import TestRegister2Data
 
 # TODO: write comments
 
-
+@mark.registerTests
+@mark.negativeTests
+@mark.negativeRegisterTest
 @mark.usefixtures("setup")
 class RegisterNegativeTests:
 

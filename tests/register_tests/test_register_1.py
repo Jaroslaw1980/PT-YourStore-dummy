@@ -2,6 +2,8 @@ from pytest import mark
 from pages.register_account_page import RegisterAccount
 
 
+@mark.registerTests
+@mark.possitiveRegisterTests
 @mark.usefixtures("setup")
 class RegisterPossitiveTests:
 
