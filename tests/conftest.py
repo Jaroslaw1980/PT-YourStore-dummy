@@ -17,8 +17,8 @@ def setup(request):
 def auto_login(self):
     login = LoginPage(self.driver)
     login.go_to_page()
-    login.input_email("YaroBaro@gmail.com")
-    login.input_email("YaroBaro")
+    login.enter_email("YaroBaro@gmail.com")
+    login.enter_password("YaroBaro")
     login.click_submit()
 
 

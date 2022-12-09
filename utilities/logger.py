@@ -7,7 +7,7 @@ def logger():
 
     formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")  # set logger format
 
-    filehandler = logging.FileHandler("C:/Projects/OrangeHRM/logfile.log")  # set file for logger log
+    filehandler = logging.FileHandler("C:/Projects/PT-YourStore-dummy/logfile.log")  # set file for logger log
     filehandler.setFormatter(formatter)  # add format to filehandler
 
     stream_handler = logging.StreamHandler()  # print log into the console
