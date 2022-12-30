@@ -1,3 +1,5 @@
+### "Product list page" URL, Locators, Page elements and Page actions ###
+
 from locators.locators import ProductListPageLocators
 from selenium.webdriver.support.select import Select
 from base.base_page import BasePage

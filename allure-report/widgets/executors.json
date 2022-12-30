@@ -1,0 +1,1 @@
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":15,"buildName":"YourStore Selenium Python PT #15","buildUrl":"http://localhost:8080/job/YourStore%20Selenium%20Python%20PT/15/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/YourStore%20Selenium%20Python%20PT/15/allure"}]

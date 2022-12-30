@@ -1,5 +1,6 @@
+### "Login Page" URL, Locators, Page elements and Page actions ###
+
 from locators.locators import LoginPageLocators
-from selenium.webdriver.common.by import By
 from base.base_page import BasePage
 from utilities.base_urls import BaseUrls
 

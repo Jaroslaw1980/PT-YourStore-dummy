@@ -1,10 +1,12 @@
+### "Product returns page" URL, Locators, Page elements and Page actions ###
+
 from base.base_page import BasePage
 from utilities.base_urls import BaseUrls
-from selenium.webdriver.common.by import By
 from locators.locators import ProductReturnsPageLocators
 
 
 class ProductReturnsPage(BasePage):
+
     # Url for product returns page locators
     base_url = BaseUrls.product_returns_page_url
 

@@ -1,0 +1,6 @@
+INFO     root:selenium_driver.py:44 Element found with "id" locator type and "input-email" locator
+INFO     root:selenium_driver.py:66 Element used to type with "id" locator type and "input-email" locator
+INFO     root:selenium_driver.py:44 Element found with "id" locator type and "input-password" locator
+INFO     root:selenium_driver.py:66 Element used to type with "id" locator type and "input-password" locator
+INFO     root:selenium_driver.py:44 Element found with "xpath" locator type and "//input[@type='submit']" locator
+INFO     root:selenium_driver.py:76 Element clicked with "xpath" locator type and "//input[@type='submit']" locator

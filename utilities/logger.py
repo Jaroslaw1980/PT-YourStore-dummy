@@ -1,5 +1,8 @@
+### logger method ###
+
+
 def logger():
-    import logging
+
     import logging.handlers
 
     loger = logging.getLogger()

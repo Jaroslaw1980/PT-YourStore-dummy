@@ -1,9 +1,12 @@
+### "Shopping cart page" URL, Locators, Page elements and Page actions ###
+
 from locators.locators import ShoppingCartLocators
 from selenium.webdriver.common.by import By
 from base.base_page import BasePage
 
 
 class ShoppingCart(BasePage):
+
     # Locators
     number_of_items = ShoppingCartLocators.number_of_items_XPATH
     items_change_button = ShoppingCartLocators.number_of_items_XPATH
@@ -16,7 +19,6 @@ class ShoppingCart(BasePage):
     cart_total_value = ShoppingCartLocators.cart_total_value_XPATH
 
     # Page elements
-
     def get_change_number_of_items(self):
         return self.get_element(self.number_of_items, locator_type='xpath')
 
@@ -38,8 +40,8 @@ class ShoppingCart(BasePage):
     def get_checkout_button(self):
         return self.get_element(self.checkout_button, locator_type='link_text')
 
-    # Page actions
 
+    # Page actions
     def change_number_of_items(self, number):
         self.send_keys_to_element(number, self.number_of_items, locator_type='xpath')
 

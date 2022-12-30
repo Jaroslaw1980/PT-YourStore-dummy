@@ -1,5 +1,6 @@
-from base.selenium_driver import SeleniumDriver
+### Base page class used to get base url driver need to automate ###
 
+from base.selenium_driver import SeleniumDriver
 
 class BasePage(SeleniumDriver):
 

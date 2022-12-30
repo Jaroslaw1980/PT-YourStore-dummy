@@ -1,0 +1,5 @@
+2022-12-12 21:39:54,397 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:54,397 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:54,523 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:54,523 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:54,978 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator

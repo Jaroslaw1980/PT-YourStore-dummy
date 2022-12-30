@@ -1,5 +1,6 @@
-# Selenium driver class with methods used commonly with selenium
-# webdriver
+### Selenium driver class with methods used commonly with selenium
+# webdriver ###
+
 from selenium.webdriver.common.by import By
 import utilities.logger as log
 
@@ -10,8 +11,8 @@ class SeleniumDriver:
     def __init__(self, driver):
         self.driver = driver
 
-    # Method used to check locator type
-    # returns By.locator type
+    ### Method used to check locator type
+    # returns By.locator type ###
     def get_by_type(self, locator_type):
         locator_type = locator_type.lower()
         if locator_type == "id":
@@ -33,8 +34,8 @@ class SeleniumDriver:
         else:
             raise TypeError("Bad locator type")
 
-    # Method used to find element on the page
-    # Returns ready to use page element
+    ### Method used to find element on the page
+    # Returns ready to use page element ###
     def get_element(self, locator, locator_type='id'):
         element = None
         locator_type = locator_type.lower()

@@ -4,3 +4,518 @@
 2022-12-09 13:00:13,809 :INFO : root :Element used to type with "id" locator type and "input-password" locator
 2022-12-09 13:00:13,895 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
 2022-12-09 13:00:13,895 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:05:21,898 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:05:21,899 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:05:21,996 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:05:21,996 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:05:22,085 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:05:22,085 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:14,325 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:14,326 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:14,422 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:06:14,422 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:06:14,508 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:14,508 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:36,521 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:36,521 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:36,636 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:36,637 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:37,003 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:37,046 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:37,046 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:37,159 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:37,159 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:37,521 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:37,553 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:37,553 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:37,627 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:37,627 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:37,943 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:37,972 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:37,972 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:38,061 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:38,063 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:38,388 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:38,412 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:38,412 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:38,495 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:38,495 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:38,832 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:38,859 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-09 13:06:38,860 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-09 13:06:38,961 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:38,961 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:39,336 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:39,372 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:06:39,372 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:06:39,471 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:39,472 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:39,824 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:39,858 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:06:39,858 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:06:39,965 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:39,966 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:40,324 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:40,348 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:06:40,350 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:06:40,431 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:40,431 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:40,844 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:40,896 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:06:40,896 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:06:40,975 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:40,975 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:41,308 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-09 13:06:41,341 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-09 13:06:41,341 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-09 13:06:41,427 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:41,428 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-09 13:06:41,776 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:01,001 :INFO : root :Element found with "id" locator type and "input-name" locator
+2022-12-12 14:42:01,001 :INFO : root :Element used to type with "id" locator type and "input-name" locator
+2022-12-12 14:42:01,088 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:01,088 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:01,179 :INFO : root :Element found with "id" locator type and "input-enquiry" locator
+2022-12-12 14:42:01,179 :INFO : root :Element used to type with "id" locator type and "input-enquiry" locator
+2022-12-12 14:42:01,260 :INFO : root :Element found with "css" locator type and "input[type='submit']" locator
+2022-12-12 14:42:01,260 :INFO : root :Element clicked with "css" locator type and "input[type='submit']" locator
+2022-12-12 14:42:22,874 :INFO : root :Element found with "id" locator type and "input-firstname" locator
+2022-12-12 14:42:22,875 :INFO : root :Element used to type with "id" locator type and "input-firstname" locator
+2022-12-12 14:42:22,962 :INFO : root :Element found with "id" locator type and "input-lastname" locator
+2022-12-12 14:42:22,965 :INFO : root :Element used to type with "id" locator type and "input-lastname" locator
+2022-12-12 14:42:23,054 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:23,054 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:23,152 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:42:23,152 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:42:23,228 :INFO : root :Element found with "id" locator type and "input-order-id" locator
+2022-12-12 14:42:23,229 :INFO : root :Element used to type with "id" locator type and "input-order-id" locator
+2022-12-12 14:42:23,302 :INFO : root :Element found with "id" locator type and "input-date-ordered" locator
+2022-12-12 14:42:23,302 :INFO : root :Element used to type with "id" locator type and "input-date-ordered" locator
+2022-12-12 14:42:23,382 :INFO : root :Element found with "id" locator type and "input-product" locator
+2022-12-12 14:42:23,382 :INFO : root :Element used to type with "id" locator type and "input-product" locator
+2022-12-12 14:42:23,484 :INFO : root :Element found with "id" locator type and "input-model" locator
+2022-12-12 14:42:23,485 :INFO : root :Element used to type with "id" locator type and "input-model" locator
+2022-12-12 14:42:23,558 :INFO : root :Element found with "id" locator type and "input-quantity" locator
+2022-12-12 14:42:23,559 :INFO : root :Element used to type with "id" locator type and "input-quantity" locator
+2022-12-12 14:42:23,626 :INFO : root :Elements found with "xpath" locator type and "//div[@class='col-sm-10']/div[@class='radio']" locator
+2022-12-12 14:42:23,671 :INFO : root :Elements found with "xpath" locator type and "//div[@class='col-sm-10']/label[@class='radio-inline']" locator
+2022-12-12 14:42:23,711 :INFO : root :Element found with "id" locator type and "input-comment" locator
+2022-12-12 14:42:23,711 :INFO : root :Element used to type with "id" locator type and "input-comment" locator
+2022-12-12 14:42:23,786 :INFO : root :Element found with "css" locator type and "input[type=submit]" locator
+2022-12-12 14:42:23,787 :INFO : root :Element clicked with "css" locator type and "input[type=submit]" locator
+2022-12-12 14:42:29,011 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:29,011 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:29,115 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:42:29,115 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:42:29,208 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:29,208 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:50,689 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:50,689 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:50,772 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:50,773 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:51,125 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:51,157 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:51,157 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:51,230 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:51,230 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:51,542 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:51,571 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:51,572 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:51,647 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:51,647 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:51,956 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:51,976 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:51,976 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:52,053 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:52,053 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:52,362 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:52,381 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:52,381 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:52,461 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:52,461 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:52,780 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:52,806 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:42:52,807 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:42:52,881 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:52,881 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:53,212 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:53,240 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:42:53,240 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:42:53,310 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:53,310 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:53,629 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:53,653 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:42:53,653 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:42:53,725 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:53,725 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:54,047 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:54,073 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:42:54,073 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:42:54,145 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:54,145 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:54,467 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:54,489 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:42:54,489 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:42:54,563 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:54,563 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:54,889 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:42:54,912 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:42:54,912 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:42:54,987 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:54,987 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:42:55,305 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 14:43:16,475 :INFO : root :Element found with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:16,475 :INFO : root :Element used to type with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:16,562 :INFO : root :Element found with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:16,562 :INFO : root :Element used to type with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:16,633 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:43:16,634 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:43:16,728 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:16,728 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:16,819 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:16,819 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:16,895 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:16,895 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:16,970 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:16,970 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:17,014 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:38,146 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:38,146 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:38,497 :INFO : root :Element found with "xpath" locator type and "//div[text()=' Warning: You must agree to the Privacy Policy!']" locator
+2022-12-12 14:43:38,536 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:38,536 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:38,615 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:38,615 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:38,692 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:38,693 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:38,742 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:38,743 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:39,051 :INFO : root :Element found with "xpath" locator type and "//div[text()='Password confirmation does not match password!']" locator
+2022-12-12 14:43:39,083 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:39,083 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:39,164 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:39,164 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:39,238 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:39,239 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:39,286 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:39,286 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:39,597 :INFO : root :Element found with "xpath" locator type and "//div[text()='Password confirmation does not match password!']" locator
+2022-12-12 14:43:39,619 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:39,619 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:39,715 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:39,715 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:39,793 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:39,793 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:39,837 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:39,837 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:40,147 :INFO : root :Element found with "xpath" locator type and "//div[text()='Password confirmation does not match password!']" locator
+2022-12-12 14:43:40,168 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:40,168 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:40,286 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:40,287 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:40,352 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:40,353 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:40,397 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:40,398 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:40,708 :INFO : root :Element found with "xpath" locator type and "//div[text()='Password confirmation does not match password!']" locator
+2022-12-12 14:43:40,731 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:40,731 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:40,810 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:40,811 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:40,890 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:40,890 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:40,934 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:40,934 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:41,235 :INFO : root :Element found with "xpath" locator type and "//div[text()='Password confirmation does not match password!']" locator
+2022-12-12 14:43:41,256 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:41,257 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:41,342 :INFO : root :Element found with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:41,343 :INFO : root :Element used to type with "id" locator type and "input-confirm" locator
+2022-12-12 14:43:41,435 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:41,436 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:41,480 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:41,480 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:41,783 :INFO : root :Element found with "xpath" locator type and "//div[text()='Password confirmation does not match password!']" locator
+2022-12-12 14:43:41,809 :INFO : root :Element found with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:41,810 :INFO : root :Element used to type with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:41,882 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:41,882 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:41,924 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:41,924 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:42,236 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[1]" locator
+2022-12-12 14:43:42,254 :INFO : root :Element found with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:42,254 :INFO : root :Element used to type with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:42,329 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:42,330 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:42,372 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:42,372 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:42,683 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[1]" locator
+2022-12-12 14:43:42,703 :INFO : root :Element found with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:42,703 :INFO : root :Element used to type with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:42,783 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:42,783 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:42,826 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:42,826 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:43,141 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[1]" locator
+2022-12-12 14:43:43,164 :INFO : root :Element found with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:43,165 :INFO : root :Element used to type with "id" locator type and "input-firstname" locator
+2022-12-12 14:43:43,265 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:43,265 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:43,305 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:43,305 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:43,606 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[1]" locator
+2022-12-12 14:43:43,634 :INFO : root :Element found with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:43,634 :INFO : root :Element used to type with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:43,704 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:43,704 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:43,749 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:43,749 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:44,061 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[2]" locator
+2022-12-12 14:43:44,088 :INFO : root :Element found with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:44,089 :INFO : root :Element used to type with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:44,162 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:44,163 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:44,206 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:44,206 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:44,517 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[2]" locator
+2022-12-12 14:43:44,538 :INFO : root :Element found with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:44,538 :INFO : root :Element used to type with "id" locator type and "input-lastname" locator
+2022-12-12 14:43:44,633 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:44,633 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:44,674 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:44,674 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:44,992 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[2]" locator
+2022-12-12 14:43:45,026 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:43:45,026 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:43:45,101 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:45,101 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:45,146 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:45,146 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:45,455 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[3]" locator
+2022-12-12 14:43:45,478 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:43:45,479 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:43:45,549 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:45,550 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:45,598 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:45,598 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:45,926 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[3]" locator
+2022-12-12 14:43:45,953 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 14:43:45,953 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 14:43:46,033 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,033 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,078 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,078 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,137 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[3]" locator
+2022-12-12 14:43:46,163 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,163 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,242 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,243 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,289 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,289 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,331 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[4]" locator
+2022-12-12 14:43:46,355 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,355 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,429 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,429 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,463 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,463 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,499 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[4]" locator
+2022-12-12 14:43:46,528 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,528 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,601 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,601 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,628 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,628 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,665 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[4]" locator
+2022-12-12 14:43:46,683 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,684 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,754 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,754 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,783 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,784 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,817 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[4]" locator
+2022-12-12 14:43:46,836 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,836 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,901 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,901 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:46,930 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,930 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:46,962 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[4]" locator
+2022-12-12 14:43:46,984 :INFO : root :Element found with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:46,985 :INFO : root :Element used to type with "id" locator type and "input-telephone" locator
+2022-12-12 14:43:47,076 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,076 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,101 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,102 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,131 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[4]" locator
+2022-12-12 14:43:47,154 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,155 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,234 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,234 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,261 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,261 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,296 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 14:43:47,316 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,316 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,384 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,384 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,413 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,413 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,448 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 14:43:47,469 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,469 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,535 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,536 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,566 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,566 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,601 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 14:43:47,620 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,620 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,683 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,684 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,718 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,718 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,750 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 14:43:47,770 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,770 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,837 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,837 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,868 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,868 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:47,901 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 14:43:47,926 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,926 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:47,991 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:47,991 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:48,018 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:48,018 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:48,050 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 14:43:48,068 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 14:43:48,068 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 14:43:48,149 :INFO : root :Element found with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:48,149 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='checkbox']" locator
+2022-12-12 14:43:48,181 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:48,182 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 14:43:48,214 :INFO : root :Element found with "xpath" locator type and "(//div[@class='text-danger'])[5]" locator
+2022-12-12 21:09:02,275 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:02,275 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:02,392 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:09:02,392 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:09:02,472 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:02,472 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:08,385 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:08,385 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:08,471 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:08,471 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:08,880 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:08,913 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:08,913 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:09,015 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:09,015 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:09,433 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:09,465 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:09,465 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:09,588 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:09,588 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:09,995 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:10,028 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:10,028 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:10,144 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:10,144 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:10,551 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:10,583 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:10,583 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:10,671 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:10,671 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:11,094 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:11,119 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:09:11,119 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:09:11,219 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:11,219 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:11,625 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:11,667 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:09:11,667 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:09:11,772 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:11,772 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:12,215 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:12,239 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:09:12,239 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:09:12,340 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:12,340 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:12,778 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:12,804 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:09:12,804 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:09:12,918 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:12,918 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:13,385 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:13,417 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:09:13,417 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:09:13,529 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:13,529 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:14,034 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:09:14,076 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:09:14,076 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:09:14,194 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:14,194 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:09:14,643 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:42,577 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:42,578 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:42,704 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:42,705 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:42,799 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:42,799 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:49,086 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:49,087 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:49,192 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:49,193 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:49,624 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:49,687 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:49,688 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:49,788 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:49,789 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:50,194 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:50,250 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:50,251 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:50,370 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:50,372 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:50,786 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:50,838 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:50,838 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:50,964 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:50,964 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:51,377 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:51,419 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:51,420 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:51,509 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:51,510 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:51,926 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:51,971 :INFO : root :Element found with "id" locator type and "input-email" locator
+2022-12-12 21:39:51,973 :INFO : root :Element used to type with "id" locator type and "input-email" locator
+2022-12-12 21:39:52,072 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:52,075 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:52,510 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:52,561 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:52,561 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:52,679 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:52,679 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:53,116 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:53,163 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:53,163 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:53,263 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:53,263 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:53,711 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:53,770 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:53,770 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:53,893 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:53,893 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:54,333 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:54,397 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:54,397 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:54,523 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:54,523 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:54,978 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator
+2022-12-12 21:39:55,036 :INFO : root :Element found with "id" locator type and "input-password" locator
+2022-12-12 21:39:55,036 :INFO : root :Element used to type with "id" locator type and "input-password" locator
+2022-12-12 21:39:55,181 :INFO : root :Element found with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:55,186 :INFO : root :Element clicked with "xpath" locator type and "//input[@type='submit']" locator
+2022-12-12 21:39:55,690 :INFO : root :Element found with "xpath" locator type and "//*[text()=' Warning: No match for E-Mail Address and/or Password.']" locator

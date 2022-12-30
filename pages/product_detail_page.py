@@ -1,3 +1,5 @@
+### "Product detail page" URL, Locators, Page elements and Page actions ###
+
 from locators.locators import ProductDetailPageLocators
 from base.base_page import BasePage
 

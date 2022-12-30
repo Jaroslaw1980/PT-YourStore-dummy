@@ -1,5 +1,5 @@
-from pages.register_account_page import RegisterAccount
-from pages.login_page import LoginPage
+### "Main Page" URL, Locators, Page elements and Page actions ###
+
 from locators.locators import MainPageLocators
 from selenium import webdriver
 from selenium.webdriver.common.by import By

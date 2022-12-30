@@ -1,3 +1,5 @@
+### Container class for all pages locators values ###
+
 class ProductListPageLocators:
 
     sort_by_list_ID = 'list-view'

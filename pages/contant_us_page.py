@@ -1,5 +1,6 @@
+### "Contact Us Page" URL, Locators, Page elements and Page actions ###
+
 from base.base_page import BasePage
-from selenium.webdriver.common.by import By
 from locators.locators import ContantUSLocators
 from utilities.base_urls import BaseUrls
 
