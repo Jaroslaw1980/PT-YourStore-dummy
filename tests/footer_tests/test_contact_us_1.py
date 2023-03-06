@@ -1,9 +1,8 @@
 from pages.contant_us_page import ContactUsPage
-from pytest import mark
+import pytest
 
-
-@mark.footerTests
-@mark.usefixtures("setup")
+@pytest.mark.footerTests
+@pytest.mark.usefixtures("setup")
 class ContactUsTests:
 
     def test_contact_us(self):
